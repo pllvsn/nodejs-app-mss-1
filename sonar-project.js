@@ -14,8 +14,8 @@ sonarqubeScanner({
 	    'sonar.language':'js',
             'sonar.sourceEncoding':'UTF-8',
             'sonar.sources': '.',
-	    'sonar.javascript.coveragePlugin=lcov',
-	    'sonar.javascript.lcov.reportPaths=coverage/lcov.info/'
+	    'sonar.javascript.coveragePlugin': 'lcov',
+	    'sonar.javascript.lcov.reportPaths': 'coverage/lcov.info/'
 	  //'sonar.tests': 'specs',
           //'sonar.inclusions' : 'src/**'
        },
